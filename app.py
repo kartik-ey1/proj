@@ -57,7 +57,7 @@ elif(s == 'M2'):
     M1_print(a)
 
 elif s == "P2/P1":
-    x = st.number_input('Insert a number', min_value=1, max_value=None)
+    x = st.number_input('Insert a number', min_value=1.00, max_value=None)
     st.write('The current number is ', x)
     a = (((x - 1) / (1.1667)) + 1) ** (0.5)
     M1_print(a)
