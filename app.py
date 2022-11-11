@@ -78,7 +78,14 @@ elif s == "T2/T1":
         return M1
     a = M1_f(x)
     a = a*a
-    M1_print(a)
+    st.write("M1 = " + str(abs(M1)))
+    st.write("M2 = " + str(M2(M1)))
+    st.write("P2/P1 = " + str(P_ratio(M1)))
+    st.write("d2/d1 = " + str(d_ratio(M1)))
+    st.write("T2/T1 = " + x)
+    st.write("a2/a1 = " + str(a_ratio(M1)))
+    st.write("p02/p01 = " + str(Ps_ratio(M1)))
+    #M1_print(a)
 
 elif s == "rho2/rho1":
     x = st.number_input('Insert a number', min_value=1.14, max_value=5.992)
